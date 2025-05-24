@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chama da União - Trabalhos Espirituais e Consultas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #fffdf8;
+      color: #2d2d2d;
+    }
+    header {
+      background: #3e0d1b;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      margin: 0;
+    }
+    nav {
+      background: #5a142a;
+      text-align: center;
+      padding: 1rem 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 1.5rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1603808033193-0b8fdec9f1b3') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 5rem 2rem;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.3rem;
+      margin-bottom: 2rem;
+    }
+    .btn {
+      background: #e60073;
+      color: white;
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      text-decoration: none;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h3 {
+      color: #5a142a;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    footer {
+      background: #1a1a1a;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+    .service {
+      background: #fff3f6;
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      border-left: 6px solid #e60073;
+      border-radius: 5px;
+    }
+    .testimonial {
+      background: #f7f7f7;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-left: 5px solid #5a142a;
+      font-style: italic;
+    }
+    .countdown {
+      font-size: 1.2rem;
+      color: #e60073;
+      font-weight: bold;
+      margin-top: 0.5rem;
+    }
+  </style>
+  <script>
+    function atualizaContador() {
+      const fim = new Date('2025-05-31T23:59:59');
+      const agora = new Date();
+      const diff = fim - agora;
+      if (diff > 0) {
+        const horas = Math.floor(diff / (1000 * 60 * 60));
+        const minutos = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+        document.getElementById("contador").innerText = `Promoção termina em ${horas}h e ${minutos}min!`;
+      } else {
+        document.getElementById("contador").innerText = "Promoção encerrada!";
+      }
+    }
+    setInterval(atualizaContador, 60000);
+    window.onload = atualizaContador;
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Chama da União</h1>
+    <p>Consultas, Magia e União Espiritual</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#depoimentos">Depoimentos</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Trabalhos Espirituais com Amor, Fé e Responsabilidade</h2>
+    <p>Consultas com Búzios, Cartas de Tarô, Amarração Amorosa e Proteção Espiritual. Atendimento sigiloso e com acompanhamento.</p>
+    <a href="https://wa.me/55SEUNUMEROAQUI" class="btn">Agendar Consulta Agora</a>
+  </section>
+
+  <section id="sobre">
+    <h3>Sobre a Chama da União</h3>
+    <p>Somos uma casa espiritual séria, fundamentada na força da Umbanda, dos Orixás e entidades de luz. Trabalhamos com guias como Pomba Gira, Exu, Preto Velho, Caboclo e mais. Acreditamos no poder da fé, no axé dos elementos e no merecimento espiritual. Aqui, cada caso é tratado com atenção, carinho e ética.</p>
+    <p>Sigilo absoluto, confiança e acompanhamento em cada etapa do seu processo espiritual.</p>
+  </section>
+
+  <section id="servicos">
+    <h3>Serviços Espirituais</h3>
+
+    <div class="service">
+      <h4>Pacote Especial - Chama da União</h4>
+      <p>Consulta + Ritual de Amor + Proteção + Acompanhamento por 7 dias. Promoção exclusiva por tempo limitado.</p>
+      <strong>De R$ 147,00 por apenas <span style="color:red">R$ 19,90</span></strong>
+      <div id="contador" class="countdown"></div>
+      <br>
+      <a href="https://mpago.la/SEULINKDEPAGAMENTO" class="btn">Aproveitar Promoção</a>
+    </div>
+
+    <div class="service">
+      <h4>Consulta com Búzios</h4>
+      <p>Descubra o que os Orixás têm a dizer sobre sua vida amorosa, profissional e espiritual. Abertura de caminhos, orientações e previsões.</p>
+    </div>
+
+    <div class="service">
+      <h4>Cartas de Tarô e Baralho Cigano</h4>
+      <p>Respostas diretas, conselhos emocionais e visão sobre o seu futuro nos relacionamentos e finanças.</p>
+    </div>
+
+    <div class="service">
+      <h4>Ritual de Amarração Amorosa</h4>
+      <p>Traga seu amor de volta com os poderes de Pomba Gira. Trabalhos com acompanhamento e forte carga energética, respeitando o livre arbítrio.</p>
+    </div>
+
+    <div class="service">
+      <h4>Quebra de Demanda e Proteção</h4>
+      <p>Remoção de inveja, olho gordo, magias negativas e fortalecimento da sua aura espiritual.</p>
+    </div>
+
+    <div class="service">
+      <h4>Ritual de União e Adoçamento</h4>
+      <p>Fortaleça vínculos, melhore sua comunicação e desperte o afeto entre você e seu parceiro.</p>
+    </div>
+  </section>
+
+  <section id="depoimentos">
+    <h3>Depoimentos Reais</h3>
+    <div class="testimonial">“Achei que nunca mais iria vê-lo. Em menos de 7 dias ele voltou me procurando. Gratidão eterna à mãe espiritual da Chama da União.” – Ana C.</div>
+    <div class="testimonial">“Muito respeito e sigilo. Me senti acolhida do início ao fim. Recomendo de olhos fechados.” – Juliana S.</div>
+    <div class="testimonial">“Resolvi minha vida com o trabalho de adoçamento. Hoje vivemos em paz e com mais carinho.” – Carla R.</div>
+  </section>
+
+  <section id="contato">
+    <h3>Entre em Contato</h3>
+    <p>Agende seu atendimento ou tire dúvidas diretamente pelo WhatsApp. Atendimento com hora marcada, total sigilo e discrição.</p>
+    <a href="https://wa.me/55SEUNUMEROAQUI" class="btn">Falar com a Mãe Espiritual</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Chama da União. Todos os direitos reservados.</p>
+    <p>Site oficial da Casa Espiritual Chama da União</p>
+  </footer>
+</body>
+</html>
