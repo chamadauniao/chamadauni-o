@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chama da União - Trabalhos Espirituais</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #fff9f9;
+      color: #333;
+    }
+    header {
+      background: #b30059;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    section.hero {
+      background: url('https://images.unsplash.com/photo-1589987607627-8b147988d1c3') center/cover no-repeat;
+      color: white;
+      padding: 6rem 2rem;
+      text-align: center;
+    }
+    section.hero h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    section.hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .btn {
+      background: #ff3385;
+      color: white;
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      text-decoration: none;
+    }
+    section.content {
+      padding: 3rem 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    section.content h3 {
+      color: #b30059;
+    }
+    footer {
+      background: #2b2b2b;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Chama da União</h1>
+    <p>Trabalhos Espirituais com Amor, Seriedade e Axé</p>
+  </header>
+  
+  <section class="hero">
+    <h2>Traga seu Amor de Volta</h2>
+    <p>Rituais poderosos com Pomba Gira, amarração e união amorosa. Atendimentos discretos e com acompanhamento espiritual.</p>
+    <a href="https://wa.me/55SEUNUMEROAQUI" class="btn">Agendar Atendimento</a>
+  </section>
+
+  <section class="content">
+    <h3>Como Funciona</h3>
+    <p>Você agenda sua consulta espiritual com os guias. Após a análise do seu caso, é realizado um ritual direcionado ao seu pedido amoroso. Trabalhamos com seriedade, fé e sigilo.</p>
+
+    <h3>Promoção Especial</h3>
+    <p>Pacote "Chama da União": Consulta + Ritual de Amarração + Acompanhamento 7 dias.</p>
+    <p><strong>Valor promocional: R$ 147,00</strong></p>
+    <a href="https://mpago.la/SEULINKDEPAGAMENTO" class="btn">Quero Participar</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Chama da União. Todos os direitos reservados.</p>
+    <p>Contato: <a href="https://wa.me/55SEUNUMEROAQUI" style="color:#ff66a3;">WhatsApp</a></p>
+  </footer>
+</body>
+</html>
